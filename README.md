@@ -1,30 +1,48 @@
-# File upload platform
+# Dukyoung File - 혁신적인 간편 파일 공유 서비스
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+![Dukyoung File Banner](./banner.png) <!-- 필요시 이미지 추가 -->
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/simwoochuls-projects/v0-file-upload-platform-8d)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/mnZJ53MKBEv)
+## 개요
 
-## Overview
+[Dukyoung File](https://file.dyhs.kr)은 덕영고등학교에서 개발한, 빠르고 안전한 개인 및 그룹 파일 공유 플랫폼입니다. 기존의 파일 공유 서비스와 차별화된 고유 기능을 통해 사용자 경험과 보안, 관리 편의성을 동시에 극대화합니다.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 독창적인 주요 기능
 
-## Deployment
+### 1. 자동 삭제 시스템  
+업로드된 파일은 보안성과 저장 공간 효율성을 위해 업로드 후 **정확히 5분 후 자동 삭제**됩니다. 일시적 파일 공유에 최적화되어, 민감 정보 유출 위험을 최소화합니다.
 
-Your project is live at:
+### 2. 보안 모드 (파일 암호화 및 검증)  
+단순한 공유를 넘어, **파일 단위 암호화**를 지원하여 전송 중 데이터 무결성을 검증하고, 무단 접근을 방지합니다. 보안 중심의 학내 문서 공유에 적합합니다.
 
-**[https://vercel.com/simwoochuls-projects/v0-file-upload-platform-8d](https://vercel.com/simwoochuls-projects/v0-file-upload-platform-8d)**
+### 3. 대용량 다중 업로드 및 동시 처리  
+여러 개의 파일을 한 번에 드래그&드롭하여 업로드할 수 있으며, **고속 동시 처리 기술**로 기다림 없는 즉각 업로드 환경을 구현합니다.
 
-## Build your app
+### 4. 업로드 통계 및 분석 리포트  
+사용자는 자신이 업로드한 파일의 다운로드 횟수, 공유 시간대 등 다양한 **사용 통계**를 실시간으로 확인할 수 있어, 관리와 분석이 용이합니다. 이는 팀 및 프로젝트 협업 생산성 향상에 기여합니다.
 
-Continue building your app on:
+### 5. 모바일 최적화 및 반응형 UI  
+스마트폰, 태블릿 등 다양한 기기에서 최적의 사용 환경을 제공, 언제 어디서나 쉽고 빠르게 파일을 공유할 수 있습니다.
 
-**[https://v0.app/chat/projects/mnZJ53MKBEv](https://v0.app/chat/projects/mnZJ53MKBEv)**
+## 사용 방법
 
-## How It Works
+1. [Dukyoung File 접속](https://file.dyhs.kr)
+2. 파일 드래그 또는 선택
+3. 필요시 보안 모드 활성화(선택사항)
+4. 업로드 클릭
+5. 생성된 공유 링크 복사 및 상대와 공유
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 기술 스택
+
+- Frontend: HTML5, CSS3, JavaScript (반응형 및 모바일 최적화)
+- Backend: (여기에 실 사용 서버 기술 명시 가능)
+- Security: AES 기반 파일 암호화, 무결성 검증 프로토콜
+- 통계 처리: 실시간 이벤트 추적 및 분석
+
+## 기여
+
+덕영고등학교 커뮤니티와의 지속적인 협력 아래 기능 개선과 보안 강화를 목표로 하며, 관심 있는 개발자 및 학생들의 기여를 환영합니다.
+
+---
+
+Dukyoung File은 교육 현장의 효율적, 안전한 파일 공유 문화 정착을 선도합니다. 사용과 피드백은 언제나 환영입니다.
+
